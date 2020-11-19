@@ -42,7 +42,8 @@ mySensors = new MySensor(callBack_MySensors, this);
            //your code
         }
     };
-    ```
+
+```
 ### Implement in onResume
 ```java
 @Override

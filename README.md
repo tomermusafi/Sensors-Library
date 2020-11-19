@@ -20,6 +20,29 @@ Add this to your module's build.gradle file (make sure the version matches the J
 ```
 
 ## Usage
+### create MySensor
+```java
+mySensors = new MySensor(callBack_MySensors, this);
+```
+### Implement CallBack
+```java
+    MySensor.CallBack_MySensors callBack_MySensors = new MySensor.CallBack_MySensors() {
+        @Override
+        public void getMagnetDirection(float magnet) {
+            
+        }
+
+        @Override
+        public void getProximity(float proximity) {
+            
+        }
+
+        @Override
+        public void getLight(float light) {
+           
+        }
+    };
+    ```
 ### Implement in onResume
 ```java
 @Override

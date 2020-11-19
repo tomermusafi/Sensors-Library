@@ -18,3 +18,21 @@ Add this to your module's build.gradle file (make sure the version matches the J
 	        implementation 'com.github.tomermusafi:Y4S1T1:01.00.01'
 	}
 ```
+
+## Usage
+### Implement in onResume
+```java
+@Override
+    protected void onResume() {
+        super.onResume();
+        mySensors.registerSensors();
+    }
+```
+### Implement in onResume
+```java
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mySensors.unregisterSensors();
+    }
+```

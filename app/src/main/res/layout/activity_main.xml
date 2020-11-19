@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/main_LBL_Tmagnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="magnet: "
+
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/main_LBL_magnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/main_LBL_Tproximity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="proximity: "
+
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/main_LBL_proximity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/main_LBL_Tlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="light: "
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/main_LBL_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:textSize="30dp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

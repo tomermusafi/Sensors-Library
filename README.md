@@ -29,17 +29,17 @@ mySensors = new MySensor(callBack_MySensors, this);
     MySensor.CallBack_MySensors callBack_MySensors = new MySensor.CallBack_MySensors() {
         @Override
         public void getMagnetDirection(float magnet) {
-            
+            //your code
         }
 
         @Override
         public void getProximity(float proximity) {
-            
+            //your code
         }
 
         @Override
         public void getLight(float light) {
-           
+           //your code
         }
     };
     ```

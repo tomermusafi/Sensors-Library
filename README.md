@@ -62,4 +62,4 @@ mySensors = new MySensor(callBack_MySensors, this);
 ```
 
 ### ScreenShoot
-![alt text](https://drive.google.com/uc?export=view&id=1TkjEVocZaA9J-RtG_5S_oPmbj5ERTC5v)
+![alt text](https://drive.google.com/uc?export=view&id=1TkjEVocZaA9J-RtG_5S_oPmbj5ERTC5v=100x20)

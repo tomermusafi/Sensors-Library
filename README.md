@@ -1,7 +1,7 @@
 # Sensors Library
 [![](https://jitpack.io/v/tomermusafi/Y4S1T1.svg)](https://jitpack.io/#tomermusafi/Y4S1T1)
 
-Libray that provide sensors(magnet, proximity and light) values;
+ ::This libray provide sensors(magnet, proximity and light) values::
 
 ## Prerequisites
 ```java
